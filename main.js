@@ -7,6 +7,6 @@
 //  | This if statement can check for text within the current url
 //  | The '-1' means 'not found'
 
-if (document.location.href.indexOf('Mode=edit') > -1){ 
+if (document.location.href.indexOf('Target') > -1){ 
     //Your code goes here
 }
