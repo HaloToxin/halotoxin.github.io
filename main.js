@@ -14,17 +14,10 @@ function urlContains() {
 }
 
 function main() {
-    let loading = true;
-    let o;
-    while (loading){
-        setInterval((event) => {
-            o = document.getElementById('sb_opportunities').children[1];
-            o.innerHTML = 'Dashboards';
-        }, 1000)
-        if (o.innerHTML == 'Dashboards') {
-            loading = false;
-        }
-    }
+    setInterval((event) => {
+        let o = document.getElementById('sb_opportunities').children[1];
+        o.innerHTML = 'Dashboards';
+    }, 1000)
 }
 
 main();
