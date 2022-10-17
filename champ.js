@@ -18,13 +18,13 @@ function main() {
         let o = document.getElementById('sb_opportunities').children[1];
         o.innerHTML = 'Dashboards';
     }, 10);
-    let finished = false;
-    while (!finished)) {
+    setInterval((event) => {
         if (!!document.getElementById('sb_opportunities')) {
             finished = true;
             clearInterval(intervalID);
         }
-    }
+    }, 10);
+    
 }
 
 main();
