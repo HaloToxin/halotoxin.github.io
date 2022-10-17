@@ -14,18 +14,17 @@ function urlContains() {
 }
 
 function main() {
-    let intervalID = 0;
+    let intervalID  = setInterval((event) => {
+        let o = document.getElementById('sb_opportunities').children[1];
+        o.innerHTML = 'Dashboards';
+    }, 10);
     let finished = false;
     while (!finished)) {
-        intervalID = setInterval((event) => {
-            let o = document.getElementById('sb_opportunities').children[1];
-            o.innerHTML = 'Dashboards';
-        }, 10)
         if (!!document.getElementById('sb_opportunities')) {
             finished = true;
+            clearInterval(intervalID);
         }
     }
-    clearInterval(intervalID);
 }
 
 main();
