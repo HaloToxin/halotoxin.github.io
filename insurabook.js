@@ -14,10 +14,6 @@ function urlContains() {
 }
 
 function main() {
-    setInterval((event) => {
-        let o = document.getElementById('sb_opportunities').children[1];
-        o.innerHTML = 'Dashboards';
-    }, 1000)
 }
 
 main();
