@@ -40,6 +40,10 @@ function main() {
         }
     }, 10);
     
+    // | Make the icon bigger
+    let sb = document.getElementById('sidebar-v2');
+    sb.children[1].children[1].children[1].children[1].style = "height: 50%";
+    
 }
 
 main();
