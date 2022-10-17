@@ -14,10 +14,12 @@ function urlContains() {
 }
 
 function main() {
-    setInterval((event) => {
-        let o = document.getElementById('sb_opportunities').children[1];
-        o.innerHTML = 'Dashboards';
-    }, 1000)
+    while (!document.getElementById('sb_opportunities')) {
+        setInterval((event) => {
+            let o = document.getElementById('sb_opportunities').children[1];
+            o.innerHTML = 'Dashboards';
+        }, 10)
+    }
 }
 
 main();
