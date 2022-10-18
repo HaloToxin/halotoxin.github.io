@@ -2,22 +2,5 @@
     display: none;
 }
 
-#sb_launchpad {
-    display: none;
-}
-
-#sb_dashboard {
-    display: none;
-}
-
-#sb_calendars {
-    display: none;
-}
-
-#sb_contacts {
-    display: none;
-}
-
-#sb_payments {
-    display: none;
+#sb_launchpad, #sb_dashboard, #sb_calendars, #sb_contacts, #sb_payments {
 }
