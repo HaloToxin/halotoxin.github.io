@@ -2,6 +2,10 @@
   display: none;
 }
 
+.hl_opportunities--set-header {
+  display: none;
+}
+
 img.object-contain.agency-logo {
   height: 80% !important;
 }
