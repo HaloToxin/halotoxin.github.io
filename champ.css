@@ -2,6 +2,6 @@
   display: none;
 }
 
-html body div#app div.undefined.flex.v2-open.sidebar-v2-agency div#sidebar-v2.relative.w-14.default-bg-color.transition-width.transition-slowest.ease.lg:w-56.xl:w-56 div.flex.flex-col.h-screen div.flex.flex-col.flex-grow.pt-3.pb-2.h-screen.overflow-hidden div.flex.items-center.justify-center.flex-shrink-0.md:px-1.mb-3.agency-logo-container.px-3 img.object-contain.agency-logo {
-  height: 80%;
+img.object-contain.agency-logo {
+  height: 80% !important;
 }
