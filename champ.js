@@ -21,12 +21,6 @@ function main() {
         let o = document.getElementById('sb_opportunities').children[1];
         o.innerHTML = 'Dashboards';
     }, 10);
-    setInterval((event) => {
-        if (!!document.getElementById('sb_opportunities')) {
-            finished = true;
-            clearInterval(intervalID);
-        }
-    }, 10);
     
     // | Find and replace the text for 'Opportunities' to 'Dashboards'
     let intervalID  = setInterval((event) => {
