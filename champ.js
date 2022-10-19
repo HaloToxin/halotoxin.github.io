@@ -20,24 +20,7 @@ function main() {
     let intervalID  = setInterval((event) => {
         let o = document.getElementById('sb_opportunities').children[1];
         o.innerHTML = 'Dashboards';
-    }, 10);
-    
-    // | Find and replace the text for 'Opportunities' to 'Dashboards'
-    let intervalID  = setInterval((event) => {
-        let p = document.getElementById('').children[1];
-        p.innerHTML = 'Dashboards';
-    }, 10);
-    setInterval((event) => {
-        if (!!document.getElementById('sb_opportunities')) {
-            finished = true;
-            clearInterval(intervalID);
-        }
-    }, 10);
-    
-    // | Make the icon bigger
-    let sb = document.getElementById('sidebar-v2');
-    sb.children[0].children[0].children[0].children[0].style = "height: 50%";
-    
+    }, 10);    
 }
 
 main();
