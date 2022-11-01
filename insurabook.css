@@ -5,3 +5,7 @@
 #sb_launchpad, #sb_dashboard, /* #sb_calendars, #sb_contacts, #sb_payments */ {
     display: none;
 }
+
+#sidebar_v2 {
+    background: black;
+}
