@@ -2,7 +2,7 @@
     display: none;
 }
 
-#sb_launchpad, #sb_dashboard, #sb_calendars, #sb_contacts, #sb_payments {
+#sb_launchpad, #sb_dashboard, #sb_contacts, #sb_payments /* #sb_calendars */ {
     display: none;
 }
 
