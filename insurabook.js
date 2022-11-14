@@ -20,7 +20,7 @@ function favicon() {
         link.rel = 'icon';
         document.getElementsByTagName('head')[0].appendChild(link);
     }
-    link.href = 'https://jeffreywithsam.github.io/ibfavicon.ico';
+    link.href = 'https://jeffreywithsam.github.io/IB-Favicon.png';
 }
 
 function main() {
