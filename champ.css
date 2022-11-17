@@ -6,6 +6,10 @@
   display: none;
 }
 
+.hl_opportunities--set {
+  width: 20%;
+}
+
 img.object-contain.agency-logo {
   height: 80% !important;
 }
