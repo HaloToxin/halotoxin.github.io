@@ -16,7 +16,7 @@ function urlContains(String target) {
 }
 
 function main() {
-    let o;
+    
     // | This interval is used to change details about the CRM as they load
     let intervalID  = setInterval((event) => {
         
