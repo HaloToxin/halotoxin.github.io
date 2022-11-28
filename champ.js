@@ -30,7 +30,11 @@ function main() {
         
     }, 10);
     
-    console.log(o.innerHTML);
+    let interval2 = setInterval((event) => {
+        
+        console.log(o.innerHTML);
+        
+    }, 1000);
 }
 
 main();
