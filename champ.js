@@ -30,7 +30,7 @@ function main() {
         
     }, 10);
     
-    window.alert(o.innerHTML);
+    console.log(o.innerHTML);
 }
 
 main();
