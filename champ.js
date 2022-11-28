@@ -22,15 +22,15 @@ function main() {
         
         // | Find and replace the text for the sidebar shortcut for 'Opportunities' to 'Dashboards'
         let o = document.querySelector("#sb_opportunities > span");
-        o.innerHTML = 'Dashboards';
+        o.innerText = 'Dashboards';
         
         // | Find and replace the text for the navbar title from 'Opportunities' to 'Dashboards'
         let o2 = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > div:nth-child(2) > header > div.flex.flex-row.justify-start.items-center.topmenu-nav > div");
-        o2.innerHTML = 'Dashboards';
+        o2.innerText = 'Dashboards';
 
         // | Find and replace the text in the 'new pipeline' button
         let p = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > section > div > div > div > div.hl_controls > div.hl_controls--right > button");
-        p.innerHTML = 'Create New Dashboard';
+        p.innerText = 'Create New Dashboard';
 
         
                 
