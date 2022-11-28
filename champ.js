@@ -21,7 +21,8 @@ function main() {
     let intervalID  = setInterval((event) => {
         
         // | Find and replace the text for the sidebar shortcut for 'Opportunities' to 'Dashboards'
-        document.getElementById('sb_opportunities').children[1].innerHTML = 'Dashboards';
+        let o = document.getElementById('sb_opportunities').children[1];
+        o.innerHTML= 'Dashboards';
         
         // | Find and replace the text for the navbar header from 'Opportunities' to 'Dashboards'
         document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > div:nth-child(2) > header > div.flex.flex-row.justify-start.items-center.topmenu-nav > div")[0].innerHTML = 'Dashboards';
