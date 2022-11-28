@@ -16,10 +16,18 @@ function urlContains(String target) {
 }
 
 function main() {
-    // | Find and replace the text for the sidebar shortcut for 'Opportunities' to 'Dashboards'
+    // | This interval is used to change details about the CRM as they load
     let intervalID  = setInterval((event) => {
-        let o = document.getElementById('sb_opportunities').children[1];
-        o.innerHTML = 'Dashboards';
+        
+        // | Find and replace the text for the sidebar shortcut for 'Opportunities' to 'Dashboards'
+        document.getElementById('sb_opportunities').children[1].innerHTML = 'Dashboards';
+        
+        // | Find and replace the text for the navbar header from 'Opportunities' to 'Dashboards'
+        let o = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > div:nth-child(2) > header > div.flex.flex-row.justify-start.items-center.topmenu-nav > div");
+        if (o.innerHTML = " Opportunities "){
+            o.innerHTML = " Dashboard "
+        }
+        
     }, 10);    
 }
 
