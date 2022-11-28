@@ -9,8 +9,8 @@
 //  | This if statement can check for text within the current url
 //  | The '-1' means 'not found'
 
-function urlContains() {
-    if (document.location.href.indexOf('Target') > -1){ 
+function urlContains(String target) {
+    if (document.location.href.indexOf(target) > -1){ 
     //Your code goes here
     }
 }
