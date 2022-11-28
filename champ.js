@@ -24,8 +24,9 @@ function main() {
         let o = document.getElementById('sb_opportunities').children[1];
         o.innerHTML= 'Dashboards';
         
-        // | Find and replace the text for the navbar header from 'Opportunities' to 'Dashboards'
-        document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > div:nth-child(2) > header > div.flex.flex-row.justify-start.items-center.topmenu-nav > div")[0].innerHTML = 'Dashboards';
+        // | Find and replace the text for the navbar title from 'Opportunities' to 'Dashboards'
+        let o2 = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > div:nth-child(2) > header > div.flex.flex-row.justify-start.items-center.topmenu-nav > div");
+        o2.innerHTML = 'Dashboards';
                 
     }, 10);
 }
