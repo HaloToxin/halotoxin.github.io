@@ -25,6 +25,7 @@ function main() {
         
         // | Find and replace the text for the navbar header from 'Opportunities' to 'Dashboards'
         let o = document.querySelector('.topmenu-navtitle');
+        o = o[0];
         if (o.textContent.includes("Opportunities")){
             o.innerHTML = "Dashboard"
         }
