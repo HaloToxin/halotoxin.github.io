@@ -9,7 +9,7 @@
 //  | This if statement can check for text within the current url
 //  | The '-1' means 'not found'
 
-function urlContains(String target) {
+function urlContains(target) {
     if (document.location.href.indexOf(target) > -1){ 
     //Your code goes here
     }
@@ -29,6 +29,6 @@ function main() {
         // | o2.innerHTML = 'Dashboards';
                 
     }, 10);
-};
+}
 
 main();
