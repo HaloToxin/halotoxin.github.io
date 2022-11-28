@@ -24,12 +24,13 @@ function main() {
         
         // | Find and replace the text for the navbar header from 'Opportunities' to 'Dashboards'
         let o = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > div:nth-child(2) > header > div.flex.flex-row.justify-start.items-center.topmenu-nav > div");
-        window.alert(o.innerHTML);
         if (o.innerHTML.indexOf("Opportunities") !== -1){
             o.innerHTML = "Dashboard"
         }
         
-    }, 10);    
+    }, 10);
+    
+    window.alert(o.innerHTML);
 }
 
 main();
