@@ -18,7 +18,7 @@ function urlContains(target) {
 function main() {
     
     // | This interval is used to change details about the CRM as they load
-    // | let intervalID  = setInterval((event) => {
+    let intervalID  = setInterval((event) => {
         
         // | Find and replace the text for the sidebar shortcut for 'Opportunities' to 'Dashboards'
         let o = document.querySelector("#sb_opportunities > span");
@@ -28,7 +28,7 @@ function main() {
         // | let o2 = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > div:nth-child(2) > header > div.flex.flex-row.justify-start.items-center.topmenu-nav > div");
         // | o2.innerHTML = 'Dashboards';
                 
-    // |}, 10);
+    }, 10);
 }
 
 main();
