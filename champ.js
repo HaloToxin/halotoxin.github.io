@@ -21,7 +21,7 @@ function main() {
     // | let intervalID  = setInterval((event) => {
         
         // | Find and replace the text for the sidebar shortcut for 'Opportunities' to 'Dashboards'
-        let o = document.getElementById('sb_opportunities').children[1];
+        let o = document.querySelector("#sb_opportunities > span");
         o.innerHTML= 'Dashboards';
         
         // | Find and replace the text for the navbar title from 'Opportunities' to 'Dashboards'
