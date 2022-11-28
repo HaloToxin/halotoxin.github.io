@@ -24,14 +24,14 @@ function main() {
         document.getElementById('sb_opportunities').children[1].innerHTML = 'Dashboards';
         
         // | Find and replace the text for the navbar header from 'Opportunities' to 'Dashboards'
-        let o = document.querySelector('#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > div:nth-child(2) > header > div.flex.flex-row.justify-start.items-center.topmenu-nav > div');
+        let o = document.querySelector('.topmenu-navtitle');
         if (o.textContent.includes("Opportunities")){
             o.innerHTML = "Dashboard"
         }
         
     }, 10);
     
-    let interval2 = setInterval((event) => {
+    let intervalID2 = setInterval((event) => {
         
         console.log("LOG");
         console.log(o.innerHTML);
