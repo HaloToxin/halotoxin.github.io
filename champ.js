@@ -34,9 +34,7 @@ function main() {
         
         // | Set the name of the Status dropdown
         let s = document.querySelector("div.bootstrap-select:nth-child(5) > button:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)");
-        s.innerText = 'Status'
-
-        
+        s.innerText = 'Status'        
                 
     }, 10);
 }
