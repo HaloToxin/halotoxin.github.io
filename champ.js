@@ -31,6 +31,10 @@ function main() {
         // | Find and replace the text in the 'new pipeline' button
         let p = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > section > div > div > div > div.hl_controls > div.hl_controls--right > button");
         p.innerText = 'Create New Dashboard';
+        
+        // | Set the name of the Status dropdown
+        let s = document.querySelector("div.bootstrap-select:nth-child(5) > button:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)");
+        s.innerText = 'Status'
 
         
                 
