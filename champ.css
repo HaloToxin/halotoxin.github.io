@@ -22,3 +22,8 @@ img.object-contain.agency-logo {
 .hl_controls--right > div:nth-child(1) {
   display: none;
 }
+
+/* Opportunity Owner Dropdown Selector */
+.hl_controls--right > div:nth-child(3) {
+  display: none;
+}
