@@ -28,19 +28,19 @@ function main() {
     // | Find and replace the text for the sidebar shortcut for 'Opportunities' to 'Dashboards'
     if (SIDEBAR_OPPORTUNITIES_BUTTON_SELECTOR != null) {
         e = document.querySelector("#sb_opportunities > span");
-        e.innerText - 'Dashboards';
+        e.innerText = 'Dashboards';
     }
 
     // | Find and replace the text for the navbar title from 'Opportunities' to 'Dashboards'
     if (SIDEBAR_OPPORTUNITIES_BUTTON_SELECTOR.aria-current == "page" && document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > div:nth-child(2) > header > div.flex.flex-row.justify-start.items-center.topmenu-nav > div") {
         e = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > div:nth-child(2) > header > div.flex.flex-row.justify-start.items-center.topmenu-nav > div");
-        e.innerText - 'Dashboards';
+        e.innerText = 'Dashboards';
     }
 
     // | Find and replace the text in the 'new pipeline' button
     if (document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > section > div > div > div > div.hl_controls > div.hl_controls--right > button")) {
         e = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > section > div > div > div > div.hl_controls > div.hl_controls--right > button");
-        e.innerText - 'Create New Dashboard';
+        e.innerText = 'Create New Dashboard';
     }
 
     let p = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > section > div > div > div > div.hl_controls > div.hl_controls--right > button");
