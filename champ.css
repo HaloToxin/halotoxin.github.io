@@ -30,5 +30,5 @@ img.object-contain.agency-logo {
 
 /* Campaign Dropdown Selector */
 .hl_controls--right > div:nth-child(3) {
-  display: hide;
+  display: none;
 }
