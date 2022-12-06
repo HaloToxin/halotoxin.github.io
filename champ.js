@@ -40,10 +40,6 @@ function main() {
         s.innerText = 'Status'        
                 
     }, 50);
-    
-    let timeoutID = setTimeout((event => {
-        clearInterval(intervalID);
-    }, 10000);
 }
 
 main();
