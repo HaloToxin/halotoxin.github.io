@@ -26,7 +26,7 @@ function main() {
     var e;
 
     // | Find and replace the text for the sidebar shortcut for 'Opportunities' to 'Dashboards'
-    if (SIDEBAR_OPPORTUNITIES_BUTTON_SELECTOR) {
+    if (SIDEBAR_OPPORTUNITIES_BUTTON_SELECTOR != null) {
         e = document.querySelector("#sb_opportunities > span");
         e.innerText - 'Dashboards';
     }
