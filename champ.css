@@ -1,19 +1,24 @@
+/* Sidebar Shortcut Selectors */
 #sb_launchpad, #sb_dashboard, #sb_payments {
   display: none;
 }
 
+/* Pipeline Header Selector */
 .hl_opportunities--set-header p {
   display: none;
 }
 
+/* Pipeline Stage Class */
 .hl_opportunities--set {
   width: 20%;
 }
 
+/* Top Left Logo Selector */
 img.object-contain.agency-logo {
   height: 80% !important;
 }
 
+/* Opportunity Value Selector */
 .hl_controls--right > div:nth-child(1) {
   display: none;
 }
