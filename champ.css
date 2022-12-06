@@ -13,3 +13,7 @@
 img.object-contain.agency-logo {
   height: 80% !important;
 }
+
+.hl_controls--right > div:nth-child(1) {
+  display: none;
+}
