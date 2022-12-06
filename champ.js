@@ -20,6 +20,9 @@ function main() {
     // | This interval is used to change details about the CRM as they load
     let intervalID  = setInterval((event) => {
         
+        // | Store elements needing changed in an array
+        
+        
         // | Find and replace the text for the sidebar shortcut for 'Opportunities' to 'Dashboards'
         let o = document.querySelector("#sb_opportunities > span");
         o.innerText = 'Dashboards';
@@ -36,7 +39,11 @@ function main() {
         let s = document.querySelector("div.bootstrap-select:nth-child(5) > button:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)");
         s.innerText = 'Status'        
                 
-    }, 10);
+    }, 50);
+    
+    let timeoutID = setTimeout((event => {
+        clearInterval(intervalID);
+    }, 10000);
 }
 
 main();
