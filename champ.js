@@ -14,7 +14,7 @@ let BLAH = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.i
 //  | The '-1' means 'not found'
 
 function urlContains(target) {
-    if (document.location.href.indexOf(target) > -1){
+    if (document.location.href.indexOf(target) > -1) {
     // Your code goes here
     }
 }
