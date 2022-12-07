@@ -7,8 +7,8 @@
 //  |___________________________________________________________________|
 
 // | Global Variables
-let SIDEBAR_OPPORTUNITIES_BUTTON_SELECTOR = document.querySelector("#sb_opportunities > span");
-let BLAH = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > div:nth-child(2) > header > div.flex.flex-row.justify-start.items-center.topmenu-nav > div");
+let SIDEBAR_OPPORTUNITIES_BUTTON = document.querySelector("#sb_opportunities > span");
+let NAVMENU_TITLE = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > div:nth-child(2) > header > div.flex.flex-row.justify-start.items-center.topmenu-nav > div");
 
 //  | This if statement can check for text within the current url
 //  | The '-1' means 'not found'
@@ -27,8 +27,8 @@ function main() {
 
     // | Find and replace the text for the sidebar shortcut for 'Opportunities' to 'Dashboards'
     if (SIDEBAR_OPPORTUNITIES_BUTTON_SELECTOR != null) {
-        e = document.querySelector(SIDEBAR_OPPORTUNITIES_BUTTON_SELECTOR);
-        e.innerText = 'Dashboards';
+        // e = SIDEBAR_OPPORTUNITIES_BUTTON_SELECTOR;
+        SIDEBAR_OPPORTUNITIES_BUTTON_SELECTOR.innerText = 'Dashboards';
     }
 
     // | Find and replace the text for the navbar title from 'Opportunities' to 'Dashboards'
