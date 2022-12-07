@@ -18,7 +18,7 @@ function urlContains(target) {
 function main() {
     
     // | This interval is used to change details about the CRM as they load
-    // let intervalID  = setInterval((event) => {
+    let intervalID  = setInterval((event) => {
         
         // | Store elements needing changed in an array
         
@@ -39,7 +39,7 @@ function main() {
         let s = document.querySelector("div.bootstrap-select:nth-child(5) > button:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)");
         s.innerText = 'Status';     
                 
-    // }, 50);
+    }, 50);
 }
 
 main();
