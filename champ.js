@@ -26,10 +26,10 @@ function main() {
     var e;
 
     // | Find and replace the text for the sidebar shortcut for 'Opportunities' to 'Dashboards'
-    if (document.querySelector(SIDEBAR_OPPORTUNITIES_BUTTON_SELECTOR)) {
+    // if (document.querySelector(SIDEBAR_OPPORTUNITIES_BUTTON_SELECTOR)) {
         e = document.querySelector(SIDEBAR_OPPORTUNITIES_BUTTON_SELECTOR);
         e.innerText = 'Dashboards';
-    }
+    // }
 
     // | Find and replace the text for the navbar title from 'Opportunities' to 'Dashboards'
     if (SIDEBAR_OPPORTUNITIES_BUTTON_SELECTOR.aria-current == "page" && document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > div:nth-child(2) > header > div.flex.flex-row.justify-start.items-center.topmenu-nav > div") {
