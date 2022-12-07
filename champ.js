@@ -26,7 +26,7 @@ function main() {
     // var e;
 
     setInterval(IntervalID, event => {
-        let e = document.querySelector("#sb_opportunities > span:nth-child(2)");
+        let e = document.querySelector("#sb_opportunities");
         e.innerText = 'Dashboards';
     }, 1000);
         
