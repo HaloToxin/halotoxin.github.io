@@ -35,10 +35,11 @@ function main() {
         let e = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > section > div > div > div > div.hl_controls > div.hl_controls--right > button");
         e.innerText = 'Create New Dashboard';
 
-        // | Find and replace the text in the 'Opportunities' header
+        // | Find and replace the text in the 'Opportunities' navbar header
         let e = document.querySelector("#tb_opportunities-tab > span:nth-child(1)");
         e.innerText = 'View';
 
+        // | Find and replace the text in the 'Pipelines' navbar header
         let e = document.querySelector("#tb_pipeline > span:nth-child(1)");
         e.innerText = 'Edit';
                 
