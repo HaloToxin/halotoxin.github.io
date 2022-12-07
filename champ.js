@@ -7,8 +7,8 @@
 //  |___________________________________________________________________|
 
 // | Global Variables
-let SIDEBAR_OPPORTUNITIES_BUTTON = "#sb_opportunities > span";
-let NAVMENU_TITLE = "#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > div:nth-child(2) > header > div.flex.flex-row.justify-start.items-center.topmenu-nav > div";
+let SIDEBAR_OPPORTUNITIES_BUTTON_SELECTOR = "#sb_opportunities > span";
+let NAVMENU_TITLE_SELECTOR = "#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > div:nth-child(2) > header > div.flex.flex-row.justify-start.items-center.topmenu-nav > div";
 
 //  | This if statement can check for text within the current url
 //  | The '-1' means 'not found'
