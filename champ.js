@@ -25,8 +25,11 @@ function main() {
     const elements = [];
     // var e;
 
-    let e = document.querySelector("#sb_opportunities > span:nth-child(2)");
-    e.innerText = 'Dashboards';
+    setInterval(IntervalID, event => {
+        let e = document.querySelector("#sb_opportunities > span:nth-child(2)");
+        e.innerText = 'Dashboards';
+    });
+        
 
     /*
 
