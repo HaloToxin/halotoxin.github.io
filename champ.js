@@ -18,7 +18,7 @@ function urlContains(target) {
 let intervalID  = setInterval((event) => {
 
     // | Find and replace the text for the sidebar shortcut for 'Opportunities' to 'Dashboards'
-    let e = document.querySelector("#sb_opportunities > span");
+    let e = document.querySelector("#sb_opportunities > span:nth-child(2)");
     e.innerText = 'Dashboards';
 
     // | Find and replace the text for the navbar title from 'Opportunities' to 'Dashboards'
