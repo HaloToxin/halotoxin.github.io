@@ -22,9 +22,9 @@ let intervalID  = setInterval((event) => {
     e.innerText = 'Dashboards';
 
     // | Find and replace the text for the navbar title from 'Opportunities' to 'Dashboards'
-    let e = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > div:nth-child(2) > header > div.flex.flex-row.justify-start.items-center.topmenu-nav > div");
-    if (e.innerText == 'Opportunities') {
-        e.innerText = 'Dashboards';
+    let o = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > div:nth-child(2) > header > div.flex.flex-row.justify-start.items-center.topmenu-nav > div");
+    if (o.innerText == 'Opportunities') {
+        o.innerText = 'Dashboards';
     }
     
     // | Find and replace the text in the 'new pipeline' button
