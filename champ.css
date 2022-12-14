@@ -32,3 +32,7 @@ img.object-contain.agency-logo {
 div.dropdown:nth-child(4) > button:nth-child(2) {
   display: none;
 }
+
+.topmenu-navtitle {
+  display: none;
+}
