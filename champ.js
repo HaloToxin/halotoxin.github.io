@@ -21,7 +21,7 @@ let intervalID  = setInterval((event) => {
 
     // | Find and replace the text for the sidebar shortcut for 'Opportunities' to 'Dashboards'
     e = document.querySelector("#tb_opportunities-tab > span:nth-child(1)");
-    e.innerText = 'Dashboards';
+    e.innerText = 'Dashboardsz';
     
     // | Find and replace the text in the 'new pipeline' button
     e = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > section > div > div > div > div.hl_controls > div.hl_controls--right > button");
