@@ -23,18 +23,6 @@ let intervalID  = setInterval((event) => {
     e = document.querySelector("#tb_opportunities-tab > span:nth-child(1)");
     e.innerText = 'Dashboards';
     
-    // | Find and replace the text in the 'new pipeline' button
-    e = document.querySelector("#app > div.flex.v2-open.sidebar-v2-location.iy3DiTzRf9NBlWxVqWyi.flex.v2-open.sidebar-v2-location > section > div > div > div > div.hl_controls > div.hl_controls--right > button");
-    e.innerText = '+ Create New Dashboard';
-
-    // | Find and replace the text in the 'Opportunities' navbar header
-    e = document.querySelector("#tb_opportunities-tab > span:nth-child(1)");
-    e.innerText = 'View';
-
-    // | Find and replace the text in the 'Pipelines' navbar header
-    e = document.querySelector("#tb_pipeline > span:nth-child(1)");
-    e.innerText = 'Edit';
-
 }, 50);
 
 // | Kill the interval that is making the changes, after a reasonable amount of time has passed for the changes to be made: ***[10 SECONDS]***
