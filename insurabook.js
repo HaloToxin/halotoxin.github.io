@@ -35,7 +35,7 @@ function main() {
         console.error(error);
     }
 
-    console.log("DBL subassount?"+urlContains("TR2M2XqUylHeOoLksd0z"));
+    console.log("DBL subassount? "+urlContains("TR2M2XqUylHeOoLksd0z"));
     
     // Change the logo for the Digital Blend Leads subaccount
     if (urlContains("TR2M2XqUylHeOoLksd0z")) {
