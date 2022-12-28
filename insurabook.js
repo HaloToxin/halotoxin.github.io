@@ -7,10 +7,13 @@
 //  | This if statement can check for text within the current url
 //  | The '-1' means 'not found'
 
-function urlContains() {
-    if (document.location.href.indexOf('Target') > -1){ 
-    //Your code goes here
+function urlContains(String target) {
+    if (document.location.href.indexOf(target) > -1){ 
+        return true;
+    } else {
+        return false;
     }
+    
 }
 
 function favicon() {
@@ -25,6 +28,11 @@ function favicon() {
 
 function main() {
     favicon();
+    
+    // Change the logo for the Digital Blend Leads subaccount
+    if (urlContains("TR2M2XqUylHeOoLksd0z")) {
+        
+    }
 }
 
 main();
