@@ -40,7 +40,7 @@ function main() {
     // Change the logo for the Digital Blend Leads subaccount
     if (urlContains("TR2M2XqUylHeOoLksd0z")) {
         var logo = document.querySelector("img.object-contain.agency-logo");
-        // logo.className = "custom-logo-element";
+        logo.className = "custom-logo-element";
     }
 }
 
