@@ -34,13 +34,14 @@ function main() {
     } catch (error) {
         console.error(error);
     }
+
+    console.log("DBL subassount?"+urlContains("TR2M2XqUylHeOoLksd0z"));
     
     // Change the logo for the Digital Blend Leads subaccount
-   // if (urlContains("TR2M2XqUylHeOoLksd0z")) {
+    if (urlContains("TR2M2XqUylHeOoLksd0z")) {
         var logo = document.querySelector("img.object-contain.agency-logo");
-        logo.src = "https://halotoxin.github.io/DBL-Blender.png";
-        logo.style="'display: none;'";
-    //}
+        // logo.className = "custom-logo-element";
+    }
 }
 
 main();
