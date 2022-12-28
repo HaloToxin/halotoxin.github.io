@@ -31,7 +31,7 @@ function main() {
     
     // Change the logo for the Digital Blend Leads subaccount
     if (urlContains("TR2M2XqUylHeOoLksd0z")) {
-        document.querySelector(".agency-logo").src = "https://halotoxin.github.io/DBL-Blender.png";
+        document.querySelector(".agency-logo")[0].src = "https://halotoxin.github.io/DBL-Blender.png";
     }
 }
 
