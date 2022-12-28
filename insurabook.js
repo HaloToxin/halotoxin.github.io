@@ -7,8 +7,8 @@
 //  | This if statement can check for text within the current url
 //  | The '-1' means 'not found'
 
-function urlContains(x) {
-    if (document.location.href.indexOf(x) > -1){ 
+function urlContains(target) {
+    if (document.location.href.indexOf(target) > -1){ 
         return true;
     } else {
         return false;
@@ -16,21 +16,21 @@ function urlContains(x) {
     
 }
 
-function favicon() {
+function favicon(url) {
     var link = document.querySelector("link[rel~='icon']");
     if (!link) {
         link = document.createElement('link');
         link.rel = 'icon';
         document.getElementsByTagName('head')[0].appendChild(link);
     }
-    link.href = 'https://halotoxin.github.io/IB-Favicon.png';
+    link.href = url;
 }
 
 function main() {
-    favicon();
+    favicon('https://halotoxin.github.io/IB-Favicon.png');
     
     try {
-        console.log(urlContains("TR2M2XqUylHeOoLksd0z"));
+        urlContains('TR2M2XqUylHeOoLksd0z');
     } catch (error) {
         console.error(error);
     }
