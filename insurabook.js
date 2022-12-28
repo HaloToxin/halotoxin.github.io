@@ -35,11 +35,11 @@ function main() {
         console.error(error);
     }
     
-    /* Change the logo for the Digital Blend Leads subaccount
+    // Change the logo for the Digital Blend Leads subaccount
     if (urlContains("TR2M2XqUylHeOoLksd0z")) {
         var logo = document.querySelector(".object-contain");
         logo.src = "https://halotoxin.github.io/DBL-Blender.png";
-    } */
+    }
 }
 
 main();
