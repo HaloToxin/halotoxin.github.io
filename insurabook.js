@@ -29,7 +29,11 @@ function favicon() {
 function main() {
     favicon();
     
-    console.log(urlContains(TR2M2XqUylHeOoLksd0z));
+    try {
+        console.log(urlContains("TR2M2XqUylHeOoLksd0z"));
+    } catch (error) {
+        console.error(error);
+    }
     
     /* Change the logo for the Digital Blend Leads subaccount
     if (urlContains("TR2M2XqUylHeOoLksd0z")) {
