@@ -38,10 +38,15 @@ function main() {
     console.log("DBL subassount? "+urlContains("TR2M2XqUylHeOoLksd0z"));
     
     // Change the logo for the Digital Blend Leads subaccount
-    if (urlContains("TR2M2XqUylHeOoLksd0z")) {
-        var logo = document.querySelector("img.object-contain.agency-logo");
-        console.log(logo.src);
-    }
+    const logoChanger = setInterval((event) => {
+        var logo = document.querySelector("img.object-contain.agency-logo")
+        if (urlContains("TR2M2XqUylHeOoLksd0z") && logo.id != "custom-logo-element") {
+            console.log("LOGO SRC = " + logo.src);
+            logo.id = "custom-logo-element";
+        } else {
+            clearInterval(logoChanger);
+        }
+    });
 }
 
 main();
