@@ -39,14 +39,19 @@ function main() {
     
     // Change the logo for the Digital Blend Leads subaccount
     const logoChanger = setInterval((event) => {
-        var logo = document.querySelector("img.object-contain.agency-logo")
-        if (urlContains("TR2M2XqUylHeOoLksd0z") && logo.id != "custom-logo-element") {
-            console.log("LOGO SRC = " + logo.src);
-            logo.id = "custom-logo-element";
-        } else {
-            clearInterval(logoChanger);
-            console.log("Interval logoChanger Stopped")
+        try {
+            var logo = document.querySelector("img.object-contain.agency-logo")
+            if (urlContains("TR2M2XqUylHeOoLksd0z") && logo.id != "custom-logo-element") {
+                console.log("LOGO SRC = " + logo.src);
+                logo.id = "custom-logo-element";
+            } else {
+                clearInterval(logoChanger);
+                console.log("Interval logoChanger Stopped")
+            }
+        } catch (error) {
+            console.log("GHL Not Yet Loaded");
         }
+        
     });
 }
 
