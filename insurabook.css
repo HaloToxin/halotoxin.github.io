@@ -9,3 +9,8 @@
 /* #sidebar-v2 {
     background-color: black !important;
 }*/
+
+/* Top Left Logo Selector */
+img.object-contain.agency-logo {
+    height: 80% !important;
+  }
