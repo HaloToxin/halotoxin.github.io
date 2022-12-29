@@ -29,14 +29,6 @@ function favicon(url) {
 function main() {
     favicon('https://halotoxin.github.io/IB-Favicon.png');
     
-    try {
-        urlContains('TR2M2XqUylHeOoLksd0z');
-    } catch (error) {
-        console.error(error);
-    }
-
-    console.log("DBL subaccount? "+urlContains("TR2M2XqUylHeOoLksd0z"));
-    
     // Change the logo for the Digital Blend Leads subaccount
     const logoChanger = setInterval((event) => {
         try {
@@ -48,7 +40,7 @@ function main() {
             console.log("Searching for Logo...");
         }
         
-    },50);
+    });
 }
 
 main();
