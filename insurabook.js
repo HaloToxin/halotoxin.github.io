@@ -41,7 +41,7 @@ function main() {
     const logoChanger = setInterval((event) => {
         try {
             var logo = document.querySelector("img.object-contain.agency-logo")
-            if (urlContains("TR2M2XqUylHeOoLksd0z") && logo.id != "custom-logo-element") {
+            if (urlContains("TR2M2XqUylHeOoLksd0z") && logo.src != "https://halotoxin.github.io/DBL-Blender.png") {
                 logo.src = "https://halotoxin.github.io/DBL-Blender.png";
             } else {
                 clearInterval(logoChanger);
@@ -51,7 +51,7 @@ function main() {
             console.log("GHL Not Yet Loaded");
         }
         
-    });
+    },50);
 }
 
 main();
