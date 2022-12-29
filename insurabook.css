@@ -11,6 +11,6 @@
 }*/
 
 /* Top Left Logo Selector */
-img.object-contain.agency-logo {
+#dbl-logo {
     height: 100% !important;
   }
