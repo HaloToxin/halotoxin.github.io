@@ -8,7 +8,7 @@
 //  | The '-1' means 'not found'
 
 function urlContains(target) {
-    if (document.location.href.indexOf(target) > -1){ 
+    if (document.location.href.indexOf(target) > -1) { 
         return true;
     } else {
         return false;
@@ -35,7 +35,7 @@ function main() {
         console.error(error);
     }
 
-    console.log("DBL subassount? "+urlContains("TR2M2XqUylHeOoLksd0z"));
+    console.log("DBL subaccount? "+urlContains("TR2M2XqUylHeOoLksd0z"));
     
     // Change the logo for the Digital Blend Leads subaccount
     const logoChanger = setInterval((event) => {
@@ -45,6 +45,7 @@ function main() {
             logo.id = "custom-logo-element";
         } else {
             clearInterval(logoChanger);
+            console.log("Interval logoChanger Stopped")
         }
     });
 }
