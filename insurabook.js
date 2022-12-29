@@ -28,8 +28,7 @@ function favicon(url) {
 
 function main() {
     favicon('https://halotoxin.github.io/IB-Favicon.png');
-    
-    
+
     // Change the logo for the Digital Blend Leads subaccount
     const logoChanger = setInterval((event) => {
         try {
