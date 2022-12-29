@@ -42,8 +42,7 @@ function main() {
         try {
             var logo = document.querySelector("img.object-contain.agency-logo")
             if (urlContains("TR2M2XqUylHeOoLksd0z") && logo.id != "custom-logo-element") {
-                console.log("LOGO SRC = " + logo.src);
-                logo.id = "custom-logo-element";
+                logo.src = "https://halotoxin.github.io/DBL-Blender.png";
             } else {
                 clearInterval(logoChanger);
                 console.log("Interval logoChanger Stopped")
