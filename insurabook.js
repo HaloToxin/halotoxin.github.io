@@ -35,6 +35,7 @@ function main() {
             var logo = document.querySelector("img.object-contain.agency-logo")
             if (urlContains("TR2M2XqUylHeOoLksd0z")) {
                 logo.src = "https://halotoxin.github.io/DBL-Blender.png";
+                logo.id="dbl-logo";
             }
         } catch (error) {
             console.log("Searching for Logo...");
