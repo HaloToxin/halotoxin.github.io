@@ -24,10 +24,3 @@ let intervalID  = setInterval((event) => {
     e.innerText = 'Dashboards';
     
 }, 50);
-
-// | Kill the interval that is making the changes, after a reasonable amount of time has passed for the changes to be made: ***[10 SECONDS]***
-//setTimeout(() => {
-    
- //   clearInterval(intervalID);
-    
-//}, 10000);
