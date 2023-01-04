@@ -21,6 +21,10 @@ let intervalID  = setInterval((event) => {
 
     // | Find and replace the text for the sidebar shortcut for 'Opportunities' to 'Dashboards'
     e = document.querySelector("#sb_opportunities > span:nth-child(2)");
-    e.innerText = 'Dashboards';
+    if (e.innerText != 'Dashboards') {
+        e.innerText = 'Dashboards';
+    } else {
+        clearInterval(intervalID);
+    }
     
 }, 50);
