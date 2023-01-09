@@ -23,8 +23,6 @@ let intervalID  = setInterval((event) => {
     e = document.querySelector("#sb_opportunities > span:nth-child(2)");
     if (e.innerText != 'Dashboards') {
         e.innerText = 'Dashboards';
-    } else {
-        clearInterval(intervalID);
     }
     
 }, 50);
