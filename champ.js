@@ -33,7 +33,7 @@ let interval1  = setInterval((event) => {
     try {
         e = document.querySelector("div.modal:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1)");
         let f = document.querySelector("div.col-sm-6:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > input:nth-child(3)");
-        e.innerText = "Edit Card -- " + f.value;
+        e.innerHTML = "<i class='icon icon-edit'>::before</i>Edit Card -- " + f.value;
     } catch (error) {
         console.error(error);
     }
