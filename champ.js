@@ -31,7 +31,7 @@ let interval1  = setInterval((event) => {
 
     try {
         e = document.querySelector("div.modal:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1)");
-        // e.innerText = 'Edit Card -- {{opportunity.name}}'
+        e.innertext = e.innerText.replace('opportunity', 'Card');
     } catch (error) {
         console.error(error);
     }
