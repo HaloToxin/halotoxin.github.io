@@ -17,7 +17,7 @@ function urlContains(target) {
 // | This interval is used to change details about the CRM as they load
 let e;
 
-let intervalID  = setInterval((event) => {
+let interval1  = setInterval((event) => {
 
     // | Find and replace the text for the sidebar shortcut for 'Opportunities' to 'Dashboards'
     e = document.querySelector("#sb_opportunities > span:nth-child(2)");
