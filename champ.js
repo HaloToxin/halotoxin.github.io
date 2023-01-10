@@ -41,8 +41,11 @@ let interval1  = setInterval((event) => {
     // Modify the object made with CSS for FC_Link to be a hyperlink
     try {
         e = document.querySelector("div.py-3:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > input:nth-child(3)::after");
-        let f = document.querySelector("div.py-3:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > input:nth-child(3)");
-        e.href = f.value;
+        let f = createElement('img');
+        f.href = e.value;
+        f.src = 'https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png';
+        e.replaceWith(f);
+        e.style.display = "none";
     } catch (error) {
         console.error(error);
     }
