@@ -73,3 +73,8 @@ li.nav-item:nth-child(3) {
 div.col-sm-6:nth-child(9) {
   display: none;
 }
+
+/* Unnecessary footer data */
+div.col-sm-12:nth-child(15) {
+  display: none;
+}
