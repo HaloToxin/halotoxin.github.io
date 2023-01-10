@@ -43,13 +43,14 @@ div.py-3:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) >
   display: none;
 }
 
+/* 'Owner' */
+div.col-sm-6:nth-child(13) {
+  display: none;
+}
+
 /* Hide elements in the Card view */
 /* 'Opportunity Source' */
 div.col-sm-6:nth-child(14) {
   display: none;
 }
 
-/* 'Owner' */
-div.col-sm-6:nth-child(13) {
-  display: none;
-}
