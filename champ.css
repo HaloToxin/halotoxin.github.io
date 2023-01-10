@@ -85,11 +85,11 @@ div.col-sm-6:nth-child(5) {
 }
 
 /* Hide opportunity source on card surface */
-.card-body > div:nth-child(1) {
+.card-body > div:nth-child(2) {
   display: none;
 }
 
 /* Hide tags on card surface */
-.card-body > div:nth-child(2){
+.card-body > div:nth-child(3){
   display: none;
 }
