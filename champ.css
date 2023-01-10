@@ -78,3 +78,8 @@ div.col-sm-6:nth-child(9) {
 div.col-sm-12:nth-child(15) {
   display: none;
 }
+
+/* empty flex box to the left of Company Name */
+div.col-sm-6:nth-child(5) {
+  display: none;
+}
