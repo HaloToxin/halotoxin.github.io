@@ -93,3 +93,16 @@ div.col-sm-6:nth-child(5) {
 .card-body > div:nth-child(3){
   display: none;
 }
+
+/* Change the input field to an img link */
+div.py-3:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > input:nth-child(3) {
+  visibility: hidden;
+}
+
+div.py-3:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > input:nth-child(3)::after {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: transparent url('https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png') no-repeat;
+}
