@@ -20,9 +20,21 @@ let e;
 let interval1  = setInterval((event) => {
 
     // | Find and replace the text for the sidebar shortcut for 'Opportunities' to 'Dashboards'
-    e = document.querySelector("#sb_opportunities > span:nth-child(2)");
+    try {
+        e = document.querySelector("#sb_opportunities > span:nth-child(2)");
+    } catch (error) {
+        console.error(error);
+    }
     if (e.innerText != 'Dashboards') {
         e.innerText = 'Dashboards';
     }
+
+    try {
+        e = document.querySelector("div.modal:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1)");
+        e.innerText = 'Edit Card -- {{opportunity.name}}'
+    } catch (error) {
+        console.error(error);
+    }
+    
     
 }, 50);
