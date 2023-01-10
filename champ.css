@@ -68,3 +68,8 @@ div.col-sm-6:nth-child(5) > div:nth-child(1) {
 li.nav-item:nth-child(3) {
   display: none;
 }
+
+/* 'Pipeline' */
+div.col-sm-6:nth-child(9) {
+  display: none;
+}
