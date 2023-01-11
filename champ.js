@@ -42,16 +42,11 @@ let interval1  = setInterval((event) => {
     try {
         if (!document.getElemenetById("FC_Icon_Link")) {
             e = document.querySelector("div.py-3:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > input:nth-child(3)");
-            let f = createElement('img');
-            let g = createElement('a');
-            g.appendChild(f);
-            g.href = e.value;
-            g.id = "FC_Icon_Link";
-            f.id = "FC_Icon";
-            f.src = 'https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png';
-            f.height = "50px";
-            f.width = "50px";
-            document.body.insertBefore(g, e);
+            let a = createElement('a');
+            let b = e.parentNode;
+            a.href = e.value;
+            a.id = "FC_Icon_Link";
+            b.insertBefore(a, e);
         }
     } catch (error) {
         console.error(error);
