@@ -51,7 +51,7 @@ let interval1  = setInterval((event) => {
             f.src = 'https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png';
             f.height = "50px";
             f.width = "50px";
-            document.body.insertBefore(f, e);
+            document.body.insertBefore(g, e);
         }
     } catch (error) {
         console.error(error);
