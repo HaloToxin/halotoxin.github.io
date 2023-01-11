@@ -40,7 +40,7 @@ let interval1  = setInterval((event) => {
 
     // Create the icon for the FC Link
     try {
-        if (!document.getElemenetById("FC_Icon_Link")) {
+        if (!document.getElementById("FC_Icon_Link")) {
             e = document.querySelector("div.py-3:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > input:nth-child(3)");
             let f = e.parentElement;
             let a = createElement('a');
