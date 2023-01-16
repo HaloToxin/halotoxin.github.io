@@ -48,3 +48,4 @@ let interval1  = setInterval((event) => {
         console.error("FC Link OnClick Error");
     }
     
+}, 50);
