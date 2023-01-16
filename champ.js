@@ -41,6 +41,7 @@ let interval1  = setInterval((event) => {
     // OnClick function for the FC Link
     try {
         e = document.querySelector("div.py-3:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > input:nth-child(3)");
+        console.log('Here there be dragons!');
         e.onclick = () => {
             window.open(e.value, '_blank');
         }
