@@ -40,14 +40,17 @@ let interval1  = setInterval((event) => {
 
     // OnClick function for the FC Link
     try {
-        e = document.querySelector("div.py-3:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > input:nth-child(3)");
-        console.log('Here there be dragons!');
-        e.onclick = () => {
-            window.open(e.value, '_blank');
+        if (!document.getElementById('fc_link')) {
+            let a = document.querySelector("div.py-3:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > input:nth-child(3)");
+            console.log('Here there be dragons!');
+            a.onclick = () => {
+                window.open(a.value, '_blank');
+            }
+            a.value = "Click Here";
+            a.id = 'fc_link';
         }
-        e.value = "Click Here";
     } catch (error) {
-        console.error("FC Link OnClick Error");
+            console.error("FC Link OnClick Error");
     }
     
 }, 50);
