@@ -47,7 +47,7 @@ let interval1  = setInterval((event) => {
             a.onclick = () => {
                 window.open(t, '_blank');
             }
-            a.value = "Click Here";
+            // a.value = "Click Here";
             a.id = 'fc_link';
         }
     } catch (error) {
