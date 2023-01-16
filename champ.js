@@ -43,8 +43,9 @@ let interval1  = setInterval((event) => {
         if (!document.getElementById('fc_link')) {
             let a = document.querySelector("div.py-3:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > input:nth-child(3)");
             console.log('Here there be dragons!');
+            let t = a.value;
             a.onclick = () => {
-                window.open(a.value, '_blank');
+                window.open(t, '_blank');
             }
             a.value = "Click Here";
             a.id = 'fc_link';
