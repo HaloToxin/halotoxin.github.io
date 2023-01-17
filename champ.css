@@ -66,6 +66,7 @@ div.py-3:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) >
   height: 38px;
   display: block;
   background-image: url("https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png");
+  background-repeat: no-repeat;
 }
 
 #fc_link:active {
