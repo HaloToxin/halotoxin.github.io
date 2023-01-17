@@ -42,7 +42,8 @@ let interval1  = setInterval((event) => {
     try {
         if (!document.getElementById('fc_link')) {
             let a = document.querySelector("div.py-3:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)");
-            const url = a.value;
+            let b = document.querySelector("div.py-3:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)");
+            const url = b.value;
             let icon = document.createElement('a');
             icon.href = url;
             icon.id = 'fc_link';
