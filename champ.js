@@ -48,7 +48,14 @@ let interval1  = setInterval((event) => {
                 window.open(t, '_blank');
             }
             // a.value = "Click Here";
-            a.id = 'fc_link';
+            let icon = document.createElement('a');
+            icon.href = a.value;
+            icon.id = 'fc_link';
+            let parent = a.parentElement();
+            parent.replaceChild(a,icon);
+            let open_img = document.createElement('img');
+            open_img.src = "https://secureagentmarketing.com/wp-content/uploads/2023/01/triad.png";
+            a.appendChild(open_img);
         }
     } catch (error) {
             console.error("FC Link OnClick Error");
