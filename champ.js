@@ -42,11 +42,9 @@ let interval1  = setInterval((event) => {
     try {
         if (!document.getElementById('fc_link')) {
             let a = document.querySelector("div.py-3:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)");
-            a.onclick = () => {
-                window.open(t, '_blank');
-            }
+            const url = a.value;
             let icon = document.createElement('a');
-            icon.href = a.value;
+            icon.href = url;
             icon.id = 'fc_link';
             icon.target = '_blank';
             let parent = a.parentElement;
