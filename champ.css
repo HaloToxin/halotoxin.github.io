@@ -70,6 +70,7 @@ div.py-3:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) >
 
 #fc_link:hover {
   background-color: rgb(67, 131, 51);
+  opacity: 0.7;
 }
 
 /* Hide elements in the Card view */
