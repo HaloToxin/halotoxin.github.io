@@ -42,16 +42,13 @@ let interval1  = setInterval((event) => {
     try {
         if (!document.getElementById('fc_link')) {
             let a = document.querySelector("div.py-3:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > input:nth-child(3)");
-            console.log('Here there be dragons!');
-            let t = a.value;
             a.onclick = () => {
                 window.open(t, '_blank');
             }
-            // a.value = "Click Here";
             let icon = document.createElement('a');
             icon.href = a.value;
             icon.id = 'fc_link';
-            let parent = a.parentElement();
+            let parent = a.parentElement;
             parent.appendChild(icon);
             let open_img = document.createElement('img');
             open_img.src = "https://secureagentmarketing.com/wp-content/uploads/2023/01/triad.png";
