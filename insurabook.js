@@ -37,7 +37,8 @@ function main() {
 
     // Change the logo for the Digital Blend Leads subaccount
     const targets = [
-        "TR2M2XqUylHeOoLksd0z",
+        'TR2M2XqUylHeOoLksd0z',
+        ''
     ];
 
     const logoChanger = setInterval((event) => {
