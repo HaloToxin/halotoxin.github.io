@@ -7,12 +7,18 @@
 //  | This if statement can check for text within the current url
 //  | The '-1' means 'not found'
 
-function urlContains(target) {
-    if (document.location.href.indexOf(target) > -1) { 
-        return true;
-    } else {
-        return false;
+function urlContains(targets) {
+    let flag = false;
+
+    for (let i = 0; i < targets.length; i++){
+        if (document.location.href.indexOf(targets[i]) > -1) { 
+            flag = true;
+        }
     }
+
+    return flag;
+
+    
     
 }
 
