@@ -61,12 +61,13 @@ function main() {
 
     const titleChanger = setInterval((event) => {
         try {
-            var title = document.getElementsByTagName('title');
+            var title = document.getElementsByTagName('title')[0];
+            console.log(title);
             if (urlContains(targets)) {
-                title[0].innerText = "Video Blended Leads";
+                title.innerText = "Video Blended Leads";
             }
         } catch (error) {
-            console.log("Searching for Title...")
+            console.log("Searching for Title...");
         }
     }, 50);
 }
