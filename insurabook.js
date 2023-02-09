@@ -37,10 +37,13 @@ function main() {
 
     // Change the logo for the Digital Blend Leads subaccount @JakeWithSAM
     const targets = [
-        'TR2M2XqUylHeOoLksd0z',
+        'TR2M2XqUylHeOoLksd0z', // Video Blend Leads - VBL Snapshot Source
         'E8fz7WJmRxiBGMZAqVkU', // Evelynn Francisco
         's4RXQeAgtig0RLhoD9SB', // Donovan March - Synchronized Agency
         'YWifbVzd6shHgcL7mZeB', // Keri McCallister - Horse Creek Insurance
+        'wTS2r9AFomCOfr863Rve', // Joshua Rockwood - Rocket Growth Strategies
+        '9sxFwZ4WD4aqNXkejNZw', // Alex Jackson - The Jackson Agency
+        'B8eUe9X61z05pHPFKJxf', // VBL Test Account
     ];
 
     const logoChanger = setInterval((event) => {
