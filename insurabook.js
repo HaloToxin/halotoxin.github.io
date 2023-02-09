@@ -61,9 +61,9 @@ function main() {
 
     const titleChanger = setInterval((event) => {
         try {
-            var title = document.getElementsByTagName('title')[1];
+            var title = document.getElementsByTagName('title');
             if (urlContains(targets)) {
-                title.innerText = "Video Blended Leads";
+                title[1].innerText = "Video Blended Leads";
             }
         } catch (error) {
             console.log("Searching for Title...")
