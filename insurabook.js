@@ -35,15 +35,16 @@ function favicon(url) {
 function main() {
     favicon('https://halotoxin.github.io/IB-Favicon.png');
 
-    // Change the logo for the Digital Blend Leads subaccount
+    // Change the logo for the Digital Blend Leads subaccount @JakeWithSAM
     const targets = [
         'TR2M2XqUylHeOoLksd0z',
         'E8fz7WJmRxiBGMZAqVkU',
+        's4RXQeAgtig0RLhoD9SB',
     ];
 
     const logoChanger = setInterval((event) => {
         try {
-            var logo = document.querySelector("img.object-contain.agency-logo")
+            var logo = document.querySelector("img.object-contain.agency-logo");
             if (urlContains(targets)) {
                 logo.src = "https://halotoxin.github.io/DBL-Blender.png";
                 logo.id="dbl-logo";
@@ -52,6 +53,17 @@ function main() {
             console.log("Searching for Logo...");
         }
         
+    }, 50);
+
+    const titleChanger = setInterval((event) => {
+        try {
+            var title = document.getElementsByTagName('title');
+            if (urlContains(targets)) {
+                title.innerText = "Video Blended Leads"
+            }
+        } catch (error) {
+            console.log("Searching for Title...")
+        }
     }, 50);
 }
 
