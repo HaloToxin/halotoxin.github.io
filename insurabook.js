@@ -38,8 +38,9 @@ function main() {
     // Change the logo for the Digital Blend Leads subaccount @JakeWithSAM
     const targets = [
         'TR2M2XqUylHeOoLksd0z',
-        'E8fz7WJmRxiBGMZAqVkU',
-        's4RXQeAgtig0RLhoD9SB',
+        'E8fz7WJmRxiBGMZAqVkU', // Evelynn Francisco
+        's4RXQeAgtig0RLhoD9SB', // Donovan March - Synchronized Agency
+        'YWifbVzd6shHgcL7mZeB', // Keri McCallister - Horse Creek Insurance
     ];
 
     const logoChanger = setInterval((event) => {
@@ -59,7 +60,7 @@ function main() {
         try {
             var title = document.getElementsByTagName('title');
             if (urlContains(targets)) {
-                title.innerText = "Video Blended Leads"
+                title.innerText = "Video Blended Leads";
             }
         } catch (error) {
             console.log("Searching for Title...")
