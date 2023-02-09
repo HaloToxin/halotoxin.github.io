@@ -52,7 +52,7 @@ function main() {
             console.log("Searching for Logo...");
         }
         
-    });
+    }, 50);
 }
 
 main();
