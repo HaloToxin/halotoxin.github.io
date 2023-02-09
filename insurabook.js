@@ -63,7 +63,7 @@ function main() {
         try {
             var title = document.getElementsByTagName('title');
             if (urlContains(targets)) {
-                title[1].innerText = "Video Blended Leads";
+                title[0].innerText = "Video Blended Leads";
             }
         } catch (error) {
             console.log("Searching for Title...")
