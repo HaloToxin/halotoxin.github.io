@@ -65,6 +65,7 @@ function main() {
             console.log(title);
             if (urlContains(targets)) {
                 title.innerText = "Video Blended Leads";
+                clearInterval(titleChanger);
             }
         } catch (error) {
             console.log("Searching for Title...");
