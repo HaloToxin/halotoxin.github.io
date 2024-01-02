@@ -13,4 +13,4 @@
 
 .ui-grid-row:nth-child(odd) .ui-grid-cell {background-color: transparent}
 
-.ui-grid-row:nth-child(even) .ui-grid-cell {background-color: rgba(255, 255, 255, 0.01)}
+.ui-grid-row:nth-child(even) .ui-grid-cell {background-color: rgba(255, 255, 255, 0.05)}
