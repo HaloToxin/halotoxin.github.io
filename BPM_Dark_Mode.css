@@ -1,11 +1,11 @@
 .ui-grid-header {border-bottom: none}
 .ui-grid-top-panel {background: rgba(0,0,0,0.1)}
 .dark .ui-grid-top-panel {background: rgba(255,255,255,0.1)}
-/*
+
 .ui-grid-row:nth-child(odd) .ui-grid-cell {background-color: transparent}
 .ui-grid-row:nth-child(odd):hover .ui-grid-cell {background-color: rgba(0,0,0,0.03)} 
 .dark .ui-grid-row:nth-child(odd):hover .ui-grid-cell {background-color: rgba(255,255,255,0.03)} 
-
+/*
 .ui-grid-row:nth-child(even) .ui-grid-cell {background-color: rgba(0,0,0,0.07)}
 .dark .ui-grid-row:nth-child(even) .ui-grid-cell {background-color: rgba(255,255,255,0.07)}
 .dark .ui-grid-row:nth-child(even):hover .ui-grid-cell {background-color: rgba(255,255,255,0.1)} 
