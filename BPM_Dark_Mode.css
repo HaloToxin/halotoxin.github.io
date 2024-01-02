@@ -55,15 +55,15 @@ input[type="text"].ui-grid-filter-input {border-color: rgba(0,0,0,0.2); border-r
 }
 
 
-  .ui-grid-row {cursor: pointer}
-  .ui-grid-row:nth-child(odd):hover .ui-grid-cell {background-color: #f2f9ff; cursor: pointer}
-  .ui-grid-row:nth-child(even):hover .ui-grid-cell {background-color: #f2f9ff; cursor: pointer}
+.ui-grid-row {cursor: pointer}
+.ui-grid-row:nth-child(odd):hover .ui-grid-cell {background-color: #f2f9ff; cursor: pointer}
+.ui-grid-row:nth-child(even):hover .ui-grid-cell {background-color: #f2f9ff; cursor: pointer}
 
-  .ui-grid-menu-button .ui-grid-icon-ok {color: green;}
+.ui-grid-menu-button .ui-grid-icon-ok {color: green;}
 
 
-  .ui-grid-menu-button {
-    border-radius: 2px;
-    border-color: transparent;
-    background-color: transparent;
-  }
+.ui-grid-menu-button {
+  border-radius: 2px;
+  border-color: transparent;
+  background-color: transparent;
+}
