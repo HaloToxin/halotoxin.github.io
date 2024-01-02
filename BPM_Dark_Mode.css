@@ -15,6 +15,6 @@
 
 .ui-grid-row:nth-child(even) .ui-grid-cell {background-color: rgba(0,0,0,0.07)}
 
-.ui-grid-cell {border-color: rgba(0,0,0,0.2)}
+.ui-grid-cell {border-color: gray}
 
-.ui-grid-header-cell {border-color: rgba(0,0,0,0.2)}
+.ui-grid-header-cell {border-color: white}
