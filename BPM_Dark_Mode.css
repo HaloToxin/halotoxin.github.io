@@ -8,11 +8,11 @@
 .ui-grid-pinned-container.ui-grid-pinned-container-left .ui-grid-header-cell:last-child {border-right-color: rgba(0,0,0,0.2)}
 
 .ui-grid-cell {border-color: rgba(0,0,0,0.2)}
-/*
+
 .ui-grid-header-cell {border-color: rgba(0,0,0,0.2)}
 
 .ui-grid-pinned-container.ui-grid-pinned-container-left .ui-grid-cell:last-child {border-right-color: rgba(0,0,0,0.2)}
-
+/*
 .ui-grid-row .ui-grid-cell.ui-grid-row-header-cell {border-bottom-color: rgba(0,0,0,0.2)}
 
 input[type="text"].ui-grid-filter-input {border-color: rgba(0,0,0,0.2); border-radius: 3px;}
