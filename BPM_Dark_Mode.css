@@ -3,7 +3,9 @@
   color: whitesmoke;
 }
 
-.ui-grid-cell {
-  background: rgba(0, 0, 0,0.7);
-  color: whitesmoke;
+.ui-grid-row:nth-child(odd) .ui-grid-cell {background-color: transparent}
+.ui-grid-row:nth-child(odd):hover .ui-grid-cell {background-color: rgba(0,0,0,0.03)} 
+
+.body {
+  background: black;
 }
