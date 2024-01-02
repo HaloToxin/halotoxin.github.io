@@ -1,14 +1,16 @@
+.body {
+  background: gray;
+}
+
 .ui-grid {
   color: white;
 }
 
 .ui-grid-header-cell {
-  background: rgba(0, 0, 0,0.9);
+  background: rgba(0, 0, 0,0.3);
 }
 
 .ui-grid-row:nth-child(odd) .ui-grid-cell {background-color: transparent}
-.ui-grid-row:nth-child(odd):hover .ui-grid-cell {background-color: rgba(0,0,0,0.03)} 
+.ui-grid-row:nth-child(odd):hover .ui-grid-cell {background-color: rgba(0,0,0,0.03)}
 
-.body {
-  background: black;
-}
+.ui-grid-row:nth-child(even) .ui-grid-cell {background-color: rgba(0,0,0,0.07)}
