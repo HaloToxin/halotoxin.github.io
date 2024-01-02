@@ -15,7 +15,7 @@
 .ui-grid-pinned-container.ui-grid-pinned-container-left .ui-grid-cell:last-child {border-right-color: rgba(0,0,0,0.2)}
 
 .ui-grid-row .ui-grid-cell.ui-grid-row-header-cell {border-bottom-color: rgba(0,0,0,0.2)}
-
+/*
 input[type="text"].ui-grid-filter-input {border-color: rgba(0,0,0,0.2); border-radius: 3px;}
 
 .ui-grid-menu-button .ui-grid-menu .ui-grid-menu-mid,
@@ -119,3 +119,4 @@ input[type="text"].ui-grid-filter-input {border-color: rgba(0,0,0,0.2); border-r
   .ui-grid-menu-button > div {
     padding: 5px 3px 5px 5px;
   }
+  */
