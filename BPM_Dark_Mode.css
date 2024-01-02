@@ -16,6 +16,6 @@
 .ui-grid-row:nth-child(even) .ui-grid-cell {background-color: rgba(255, 255, 255, 0.05)}
 
 /* Scrollbar Stuff */
-.scroller {
+.ng-isolate-scope {
   scrollbar-color: rebeccapurple green;
 }
