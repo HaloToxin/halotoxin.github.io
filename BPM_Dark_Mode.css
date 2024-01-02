@@ -14,3 +14,7 @@
 .ui-grid-row:nth-child(odd):hover .ui-grid-cell {background-color: rgba(0,0,0,0.03)}
 
 .ui-grid-row:nth-child(even) .ui-grid-cell {background-color: rgba(0,0,0,0.07)}
+
+.ui-grid-cell {border-color: rgba(0,0,0,0.2)}
+
+.ui-grid-header-cell {border-color: rgba(0,0,0,0.2)}
