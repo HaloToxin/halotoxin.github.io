@@ -1,6 +1,5 @@
 .body {
   background: rgb(25, 25, 25);
-  scrollbar-color: rebeccapurple green;
 }
 
 .ui-grid {
@@ -15,3 +14,8 @@
 .ui-grid-row:nth-child(odd) .ui-grid-cell {background-color: transparent}
 
 .ui-grid-row:nth-child(even) .ui-grid-cell {background-color: rgba(255, 255, 255, 0.05)}
+
+/* Scrollbar Stuff */
+.ui-grid-viewport {
+  scrollbar-color: rebeccapurple green;
+}
