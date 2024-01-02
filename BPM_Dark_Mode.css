@@ -4,6 +4,7 @@
 
 .ui-grid {
   color: white;
+  border-color: gray;
 }
 
 .ui-grid-header-cell {
@@ -11,10 +12,5 @@
 }
 
 .ui-grid-row:nth-child(odd) .ui-grid-cell {background-color: transparent}
-.ui-grid-row:nth-child(odd):hover .ui-grid-cell {background-color: rgba(0,0,0,0.03)}
 
-.ui-grid-row:nth-child(even) .ui-grid-cell {background-color: rgba(0,0,0,0.07)}
-
-.ui-grid-cell {border-color: gray}
-
-.ui-grid-header-cell {border-color: white}
+.ui-grid-row:nth-child(even) .ui-grid-cell {background-color: rgba(0,0,0,0.08)}
