@@ -27,7 +27,7 @@ input[type="text"].ui-grid-filter-input {border-color: rgba(0,0,0,0.2); border-r
 
 .ui-grid-grid-footer {padding: 5px; background-color: rgba(0,0,0,0.08); border-top: solid 1px rgba(0,0,0,0.2);}
 .ui-grid-footer-info {height: auto !important; color: rgba(0,0,0,0.5)}
-/*
+
 [data-table-responsive] > .grid {
   height: auto !important
 }
@@ -41,7 +41,7 @@ input[type="text"].ui-grid-filter-input {border-color: rgba(0,0,0,0.2); border-r
   color: #fff;
   background-color: gray;
 } 
-
+/*
 .ui-grid-row-selected.ui-grid-row:nth-child(odd) .ui-grid-cell.ui-grid-cell-focus,
 .ui-grid-row-selected.ui-grid-row:nth-child(even) .ui-grid-cell.ui-grid-cell-focus {
   outline: 0;
