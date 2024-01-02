@@ -59,19 +59,19 @@ input[type="text"].ui-grid-filter-input {border-color: rgba(0,0,0,0.2); border-r
 .ui-grid-row-selected.ui-grid-row:nth-child(odd) .ui-grid-cell,
 .ui-grid-row-selected.ui-grid-row:nth-child(even) .ui-grid-cell {
   color: #fff;
-  background-color: $builder-highlight-color;
+  background-color: gray;
 } 
 
 .ui-grid-row-selected.ui-grid-row:nth-child(odd) .ui-grid-cell.ui-grid-cell-focus,
 .ui-grid-row-selected.ui-grid-row:nth-child(even) .ui-grid-cell.ui-grid-cell-focus {
   outline: 0;
-  background-color: $builder-highlight-color;
+  background-color: gray;
 } 
 
 .ui-grid-row-selected.ui-grid-row:nth-child(odd):hover .ui-grid-cell,
 .ui-grid-row-selected.ui-grid-row:nth-child(even):hover .ui-grid-cell {
   color: #fff;
-  background-color: $builder-highlight-color !important;
+  background-color: gray !important;
 }
 
   .ui-grid {
