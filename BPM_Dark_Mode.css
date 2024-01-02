@@ -1,6 +1,9 @@
+.ui-grid {
+  color: white;
+}
+
 .ui-grid-header-cell {
   background: rgba(0, 0, 0,0.9);
-  color: whitesmoke;
 }
 
 .ui-grid-row:nth-child(odd) .ui-grid-cell {background-color: transparent}
