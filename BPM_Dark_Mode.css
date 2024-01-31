@@ -13,6 +13,7 @@
 
 .ui-grid-header-cell {
   background: rgba(0, 0, 0,0.3);
+  color: gray;
 }
 
 .ui-grid-row:nth-child(odd) .ui-grid-cell {background-color: transparent}
