@@ -23,3 +23,8 @@
 .ng-isolate-scope {
   scrollbar-color: gray rgb(41, 41, 41);
 }
+
+/* Icon Stuff */
+.type.bpm-icon.icon-task {
+  color: #597777;
+}
