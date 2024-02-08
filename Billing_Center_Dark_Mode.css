@@ -31,10 +31,10 @@
 }
 
 /* Icons */
-a.type.bpm-icon.icon-task {
+[class*="BPM_Resp_"] .ui-grid-cell.ui-grid-row-header-cell.custom a {
     color: aliceblue;
 }
 
-a.type.bpm-icon.icon-task:hover {
+[class*="BPM_Resp_"] .ui-grid-cell.ui-grid-row-header-cell.custom ak:hover {
     color: #6ba1cf;
 }
