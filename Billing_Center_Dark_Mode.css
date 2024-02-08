@@ -8,4 +8,5 @@
 /* Billing Center Policy List Grid */
 .ui-grid-header-cell {
     background: #505a5a;
+    color: whitesmoke;
 }
