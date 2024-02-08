@@ -12,13 +12,12 @@
 
 /* Billing Center Policy List Grid */
 .ui-grid-header-cell {
-    background: #505a5a;
+    background: #3c4646;
     color: whitesmoke;
 }
 
 .ui-grid {
     background: #505a5a;
-    color: whitesmoke;
 }
 
 .ui-grid-row:nth-child(odd) .ui-grid-cell {background-color: transparent}
