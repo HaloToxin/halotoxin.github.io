@@ -20,3 +20,8 @@
     background: #505a5a;
     color: whitesmoke;
 }
+
+/* Scrollbar */
+.ng-isolate-scope {
+    scrollbar-color: gray rgb(41, 41, 41);
+  }
