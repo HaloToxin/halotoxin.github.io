@@ -1,5 +1,30 @@
-/* 
-|  I'm starting entirely from scratch.  2/8/24
-|
-|
-*/
+:root {
+    color-scheme:dark;
+  }
+  
+  .body {
+    background: rgb(25, 25, 25);
+  }
+  
+  .ui-grid {
+    color: white;
+    border-color: gray;
+  }
+  
+  .ui-grid-header-cell {
+    background: gray;
+  }
+  
+  .ui-grid-row:nth-child(odd) .ui-grid-cell {background-color: transparent}
+  
+  .ui-grid-row:nth-child(even) .ui-grid-cell {background-color: rgba(255, 255, 255, 0.05)}
+  
+  /* Scrollbar Stuff */
+  .ng-isolate-scope {
+    scrollbar-color: gray rgb(41, 41, 41);
+  }
+  
+  /* Icon Stuff */
+  .type.bpm-icon.icon-task {
+    color: #597777;
+  }
