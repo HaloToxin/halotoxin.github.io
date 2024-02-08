@@ -18,6 +18,7 @@
 
 .ui-grid {
     background: #505a5a;
+    color: whitesmoke;
 }
 
 .ui-grid-row:nth-child(odd) .ui-grid-cell {background-color: transparent}
