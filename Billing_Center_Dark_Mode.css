@@ -35,6 +35,6 @@
     color: aliceblue;
 }
 
-[class*="BPM_Resp_"] .ui-grid-cell.ui-grid-row-header-cell.custom a:hover, [class*="BPM_Resp_"] .ui-grid-cell.ui-grid-row-header-cell.custom a:focus {
-    color: #6ba1cf;
+[class*="BPM_Resp_"] .ui-grid-cell.ui-grid-row-header-cell.custom a:focus, [class*="BPM_Resp_"] .ui-grid-cell.ui-grid-row-header-cell.custom a:hover {
+    color: #78baf3;
 }
