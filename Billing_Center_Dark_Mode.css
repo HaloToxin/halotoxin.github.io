@@ -21,7 +21,15 @@
     color: whitesmoke;
 }
 
+.ui-grid-row:nth-child(odd) .ui-grid-cell {
+    background-color: transparent
+}
+  
+.ui-grid-row:nth-child(even) .ui-grid-cell {
+    background-color: rgba(255, 255, 255, 0.05)
+}
+
 /* Scrollbar */
 .ng-isolate-scope {
-    scrollbar-color: gray rgb(41, 41, 41);
+    scrollbar-color: lightgray #3c4646;
   }
