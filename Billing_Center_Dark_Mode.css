@@ -29,4 +29,13 @@
 /* Scrollbar */
 .ng-isolate-scope {
     scrollbar-color: lightgray #3c4646;
-  }
+}
+
+/* Icons */
+.icon-task {
+    color: aliceblue;
+}
+
+.icon-task:hover {
+    color: #6ba1cf;
+}
