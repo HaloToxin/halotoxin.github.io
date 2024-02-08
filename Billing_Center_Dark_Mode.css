@@ -32,10 +32,10 @@
 }
 
 /* Icons */
-.icon-task {
+a.type.bpm-icon.icon-task {
     color: aliceblue;
 }
 
-.icon-task:hover {
+a.type.bpm-icon.icon-task:hover {
     color: #6ba1cf;
 }
