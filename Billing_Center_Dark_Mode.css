@@ -5,6 +5,11 @@
 |   Author: Jeffrey Robinson II
 */
 
+/* Body */
+.body {
+    background:#505a5a;
+}
+
 /* Billing Center Policy List Grid */
 .ui-grid-header-cell {
     background: #505a5a;
