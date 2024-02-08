@@ -19,6 +19,7 @@
 .ui-grid {
     background: #505a5a;
     color: whitesmoke;
+    border-color: #0d1111;
 }
 
 .ui-grid-row:nth-child(odd) .ui-grid-cell {background-color: transparent}
